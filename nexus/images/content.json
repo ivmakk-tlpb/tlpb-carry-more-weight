@@ -1,0 +1,68 @@
+{
+  "nexus": {
+    "name": "Carry More Weight",
+    "author": "ivmakk",
+    "category": "Miscellaneous",
+    "summary": "Heavy items weigh half as much, and a log in your hands no longer halves your speed."
+  },
+  "thumbnail": {
+    "out": "01-thumb.jpg",
+    "screenshot": "thick-log.jpg",
+    "crop": [
+      535,
+      540,
+      1920,
+      1080
+    ],
+    "title": [
+      {
+        "text": "Carry More",
+        "accent": true
+      },
+      {
+        "text": "Weight"
+      }
+    ],
+    "rows": [
+      {
+        "icon": "resources.assets/Texture2D/log_thick",
+        "caption": [
+          {
+            "text": "Carry twice as much",
+            "accent": true
+          },
+          {
+            "text": "before you get Encumbered"
+          }
+        ]
+      },
+      {
+        "icon": "resources.assets/movement",
+        "caption": [
+          {
+            "text": "No half-speed debuff",
+            "accent": true
+          },
+          {
+            "text": "with a log in your hands"
+          }
+        ]
+      }
+    ]
+  },
+  "background": {
+    "out": "banner.jpg",
+    "screenshot": "thick-log.jpg",
+    "crop": [
+      735,
+      560,
+      2600,
+      744
+    ],
+    "darken": [
+      "linear-gradient(90deg, rgba(12,12,14,0.92) 0%, rgba(12,12,14,0) 48%)",
+      "linear-gradient(180deg, rgba(12,12,14,0) 59%, rgba(12,12,14,0.6) 100%)"
+    ],
+    "overlays": []
+  }
+}

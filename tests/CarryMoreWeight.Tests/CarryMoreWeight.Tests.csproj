@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\src\Plugin.cs" Link="Plugin.cs" />
+    <Compile Include="..\..\src\WeightRule.cs" Link="WeightRule.cs" />
+    <Compile Include="..\..\src\HandRule.cs" Link="HandRule.cs" />
+    <Compile Include="..\..\src\Patches\WeightPatches.cs" Link="Patches\WeightPatches.cs" />
+    <Compile Include="..\..\src\Patches\HandPatches.cs" Link="Patches\HandPatches.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.10.1" />
+    <PackageReference Include="xunit.v3" Version="4.0.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="4.0.0" />
+  </ItemGroup>
+
+</Project>
