@@ -13,17 +13,17 @@ Carry More Weight is a mod for the Steam game *The Last Plague: Blight*. In the 
 - **Heavy labels follow.** The "Heavy" and "Very Heavy" lines of an item tooltip use the new weight. At the default, a Long Plank shows no line, and a Simple Wooden Shield shows "Heavy" in place of "Very Heavy".
 - **Fair play.** `1` gives the game weights. The limit of 40 and the penalty stay as in the game. NPCs use the same item weights and lose the same slowdown, so they also carry more and keep their speed with a log. Long Lumber that you drag on the ground stays outside your inventory, so it adds no weight in the game or with the mod.
 
-## When Encumbered starts
+## How much you carry before Encumbered
 
-At the default settings, with nothing else heavy on you.
+The most of one item that you can carry with no debuff, with nothing else heavy on you. Your backpack space still limits how much you carry.
 
-| You carry | Game | With the mod |
-|---|---|---|
-| Iron Ore (weight 4) | 11 | 21 |
-| Copper Ingot (weight 6) | 7 | 14 |
-| Firewood (weight 20) | 3 | 5 |
-| Log (weight 40) | 2 | 3 |
-| Thick Log (weight 100) | 1: Stamina depletes 180% faster, movement 36% slower | 1: Stamina depletes 30% faster, movement 6% slower |
+| Item | Game (x1) | x2 (default) | x5 | x10 |
+|---|---|---|---|---|
+| Iron Ore | 10 | 20 | 50 | 100 |
+| Copper Ingot | 6 | 13 | 33 | 66 |
+| Firewood | 2 | 4 | 10 | 20 |
+
+One Thick Log in your hands makes you Encumbered in the game (Stamina depletes 180% faster, movement 36% slower). At x2 the penalty is small (30% and 6%), and from x3 there is no debuff.
 
 ## Item weights
 
